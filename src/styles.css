@@ -25,3 +25,45 @@ header {
 
     padding-bottom: 2rem;
 }
+
+header button {
+    background-color: tomato;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+header button:hover {
+    filter: brightness(0.9);
+    transition: 0.4s;
+}
+
+header button svg {
+    font-size: 1.6rem;
+    color: white;
+}
+
+header input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    width: 100%;
+    font-family: 'Relaway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.task-container{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-and-title {
+    display: flex;
+    align-items: center;
+   
+}
+
+.checkbox-container {
+    position: relative;
+    padding-left: 35px;
+}
